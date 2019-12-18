@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9DBC005-1CFF-4257-A1B6-D0D64F1BC59F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReconocedorVoz</RootNamespace>
+    <AssemblyName>ReconocedorVoz</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abecedario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abecedario.Designer.cs">
+      <DependentUpon>Abecedario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INDEX_CONSONANTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INDEX_CONSONANTE.Designer.cs">
+      <DependentUpon>INDEX_CONSONANTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lecciones_Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lecciones_Index.Designer.cs">
+      <DependentUpon>Lecciones_Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_B.Designer.cs">
+      <DependentUpon>VENTANA_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_C.Designer.cs">
+      <DependentUpon>VENTANA_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_D.Designer.cs">
+      <DependentUpon>VENTANA_D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_F.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_F.Designer.cs">
+      <DependentUpon>VENTANA_F.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_G.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_G.Designer.cs">
+      <DependentUpon>VENTANA_G.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_H.Designer.cs">
+      <DependentUpon>VENTANA_H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_J.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_J.Designer.cs">
+      <DependentUpon>VENTANA_J.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_K.Designer.cs">
+      <DependentUpon>VENTANA_K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_L.Designer.cs">
+      <DependentUpon>VENTANA_L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_M.Designer.cs">
+      <DependentUpon>VENTANA_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_N.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_N.Designer.cs">
+      <DependentUpon>VENTANA_N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_P.Designer.cs">
+      <DependentUpon>VENTANA_P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_Q.Designer.cs">
+      <DependentUpon>VENTANA_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_R.Designer.cs">
+      <DependentUpon>VENTANA_R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_S.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_S.Designer.cs">
+      <DependentUpon>VENTANA_S.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_T.Designer.cs">
+      <DependentUpon>VENTANA_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_V.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_V.Designer.cs">
+      <DependentUpon>VENTANA_V.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_W.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_W.Designer.cs">
+      <DependentUpon>VENTANA_W.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_X.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_X.Designer.cs">
+      <DependentUpon>VENTANA_X.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_Y.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_Y.Designer.cs">
+      <DependentUpon>VENTANA_Y.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_Z.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_Z.Designer.cs">
+      <DependentUpon>VENTANA_Z.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VENTANA_Ñ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VENTANA_Ñ.Designer.cs">
+      <DependentUpon>VENTANA_Ñ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vocales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vocales.Designer.cs">
+      <DependentUpon>Vocales.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Abecedario.resx">
+      <DependentUpon>Abecedario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INDEX_CONSONANTE.resx">
+      <DependentUpon>INDEX_CONSONANTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lecciones_Index.resx">
+      <DependentUpon>Lecciones_Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_B.resx">
+      <DependentUpon>VENTANA_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_C.resx">
+      <DependentUpon>VENTANA_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_D.resx">
+      <DependentUpon>VENTANA_D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_F.resx">
+      <DependentUpon>VENTANA_F.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_G.resx">
+      <DependentUpon>VENTANA_G.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_H.resx">
+      <DependentUpon>VENTANA_H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_J.resx">
+      <DependentUpon>VENTANA_J.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_K.resx">
+      <DependentUpon>VENTANA_K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_L.resx">
+      <DependentUpon>VENTANA_L.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_M.resx">
+      <DependentUpon>VENTANA_M.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_N.resx">
+      <DependentUpon>VENTANA_N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_P.resx">
+      <DependentUpon>VENTANA_P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_Q.resx">
+      <DependentUpon>VENTANA_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_R.resx">
+      <DependentUpon>VENTANA_R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_S.resx">
+      <DependentUpon>VENTANA_S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_T.resx">
+      <DependentUpon>VENTANA_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_V.resx">
+      <DependentUpon>VENTANA_V.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_W.resx">
+      <DependentUpon>VENTANA_W.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_X.resx">
+      <DependentUpon>VENTANA_X.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_Y.resx">
+      <DependentUpon>VENTANA_Y.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_Z.resx">
+      <DependentUpon>VENTANA_Z.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENTANA_Ñ.resx">
+      <DependentUpon>VENTANA_Ñ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vocales.resx">
+      <DependentUpon>Vocales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUTTUN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_Caballo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_niño.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_Luna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_Pato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_Ratón.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\IMGS\IMG_sound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJ.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
